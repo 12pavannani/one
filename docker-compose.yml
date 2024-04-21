@@ -1,0 +1,13 @@
+---
+version: "3"
+services:
+  paytm:
+    image: image2
+    ports:
+      - "8082:8080"
+
+  upay:
+    image: image2
+    ports:
+      - "8083:8080"
+
